@@ -1,0 +1,6 @@
+#IDE
+.idea
+
+# Make file
+CMakeLists.txt
+/cmake-build-debug
