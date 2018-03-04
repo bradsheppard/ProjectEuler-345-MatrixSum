@@ -10,6 +10,26 @@ A speed up that I implemented involves pruning the search tree at each point by 
 if it's possible that the running sum can exceed the maximum sum found so far. This greatly
 increases the time required to find the matrix sum.
 
+Usage
+-----
+The project can be built using `make`. Run the following from the project directory.
+
+```
+make
+```
+
+This will generate the C object files and the program executable. Run the following command to run the program:
+
+```
+./maxsum {matrix_file}
+```
+
+where `{matrix_file}` is a matrix text file. Two matrix files (matrix1.txt and matrix2.txt) are given
+as examples. To clean the build artifacts, run the following:
+
+```
+make clean
+```
 
 
 [MIT](LICENSE)
