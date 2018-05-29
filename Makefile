@@ -1,4 +1,4 @@
-CC=gcc
+CC = gcc
 
 HEADERS = matrix.h
 OBJECTS = matrix.o main.o
