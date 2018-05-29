@@ -8,7 +8,7 @@ An obvious solution to this problem involves a brute force search, which has exp
 
 A speed up that I implemented involves pruning the search tree at each point by checking
 if it's possible that the running sum can exceed the maximum sum found so far. This greatly
-increases the time required to find the matrix sum.
+reduces the time required to find the matrix sum.
 
 Usage
 -----

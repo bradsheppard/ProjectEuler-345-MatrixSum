@@ -7,8 +7,6 @@
 #ifndef PROJECTEULER_MATRIXSUM_MATRIX_H
 #define PROJECTEULER_MATRIXSUM_MATRIX_H
 
-#endif
-
 typedef struct {
     unsigned int size;
     int **values;
@@ -16,3 +14,5 @@ typedef struct {
 
 matrix *get_matrix(FILE *matrix_file);
 int get_max_sum(matrix *matrix_struct);
+
+#endif
